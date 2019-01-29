@@ -14,8 +14,23 @@
 */
 
 /* VideoPlayer Styles */
+video {
+    display: block;
+    width: 90%;
+    margin: 5 auto 5;
+}
 
-
-
+@media (min-width: 521px) {
+    video {
+        width: 360px;
+        float: right;
+        margin: 10px;
+    }
+}
 
 /* Track Styles */
+::cues {
+    font-size: 1.3em;
+    color: rgb(221, 128, 160);
+    background: rgba(255, 255, 255 0.8);
+}
