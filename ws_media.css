@@ -14,12 +14,14 @@
 */
 
 /* VideoPlayer Styles */
+/* Changes the display to block, changes the width to 90% and centered the video element. */
 video {
     display: block;
     width: 90%;
     margin: 5 auto 5;
 }
 
+/* Changes the size and the float of the video of the video element when the width of the broswer is less then 521px. */
 @media (min-width: 521px) {
     video {
         width: 360px;
@@ -29,6 +31,7 @@ video {
 }
 
 /* Track Styles */
+/* Changes the apperance of the cues if the browser supports it. */
 ::cues {
     font-size: 1.3em;
     color: rgb(221, 128, 160);
